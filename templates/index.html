@@ -1,0 +1,27 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<body>
+    <div class="top">
+        <center>
+            <h1>WELCOME TO THIS HTML PAGE</h1>
+            <marquee behavior="scroll" scrollamount="10" width="50%">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore possimus debitis incidunt facilis aut nesciunt itaque repudiandae voluptate esse sunt ea illum, dolores voluptatem autem nisi consectetur illo. Mollitia, expedita!</p>
+            </marquee>
+        </center>
+    </div>
+    
+    <div class="box">
+        <div><img src="{% static 'images/s5.jpg' %}" alt="" width="285"></div>
+        <div><img src="{% static 'images/s2.jpg' %}" alt=""></div>
+        <div><img src="{% static 'images/s3.jpg' %}" alt=""></div>
+    </div>
+</body>
+</html>
